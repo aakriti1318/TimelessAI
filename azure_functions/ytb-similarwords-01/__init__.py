@@ -1,6 +1,7 @@
 import logging
 import json
 from azure import * 
+from azure.storage.blob import BlobServiceClient
 import azure.functions as func
 from nltk.corpus import wordnet as wn
 import nltk
