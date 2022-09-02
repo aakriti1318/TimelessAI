@@ -1,5 +1,7 @@
 import logging
 import json
+from azure import * 
+from azure.storage.blob import BlobServiceClient
 import azure.functions as func
 from youtube_transcript_api import YouTubeTranscriptApi
 from gensim.summarization.summarizer import summarize
