@@ -18,9 +18,9 @@ def main(text, word_count):
             "status": 200,
             "summary": summary
         }
-        return results
+        return summary
     else:
-        return {"status": 500}
+        return ''
 
 
 def punctuate_online(text):
