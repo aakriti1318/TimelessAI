@@ -34,3 +34,6 @@ def punctuate_online(text):
     # extracting response text
     punctuatedText = r.text
     return punctuatedText
+
+def hello(name):
+    return f"Hello, {name}"
