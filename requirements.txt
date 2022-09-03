@@ -1,6 +1,6 @@
 
 # Do not include azure-functions-worker as it may conflict with the Azure Functions platform
-youtube_transcript_api==1.0.0
+youtube_transcript_api
 nltk
 PyDictionary==2.0.1
 gensim==3.8.1
